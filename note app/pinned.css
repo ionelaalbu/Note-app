@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #000;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background: #1c1917;
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center ;
+    width: 100%;
+    height: 100px;
+    color: #525252;
+}
+#icon{
+    font-size: 70px;
+    margin-left: 60px;
+    cursor: default;
+}
+.navbar{
+    display: flex;
+    justify-content:center;
+    width: 70%;
+    align-items: center;
+}
+a{
+    font-family: "Bona Nova SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #525252;
+}
+#li1{
+    margin-right: 100px;
+}
+a:hover{
+    color: #134e4a;
+}
+#li3{
+    margin-left: 100px;
+    /* here */
+}
+
+.active{
+    color: #134e4a;
+}
+h2{
+    color: #fff;
+    text-align: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.notes-display{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-top: 100px;
+}
+.title-div{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50px;
+    border-bottom: 3px solid black;
+    justify-content: center;
+    align-items: center;
+    font-style: oblique;
+    font-weight: bold;
+}
+.note-div{
+    padding: 10px;
+}
+.btn{
+    width: 100%;
+    height: 30px;
+    border-top: 3px solid black;
+    display: flex;
+}
+#pin-btn{
+    display: none; 
+    /* width: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    background: #1c1917;
+    color: #525252;
+    border: none;
+    border: 3px solid #1c1917 ;
+    border-right: 3px solid black ; */
+}
+/* #pin-btn:hover{
+    color: #fff;
+    border: 3px solid #fff ;
+} */
+#del-btn{
+    width: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    background: #1c1917;
+    color: #525252;
+    border: none;
+    border: 3px solid #1c1917 ;
+}
+#del-btn:hover{
+    color: #fff;
+    border: 3px solid #fff ;
+}
+.date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    border-bottom: 3px solid black;
+    color: crimson;
+}
+.visibility{
+    visibility: none;
+}
